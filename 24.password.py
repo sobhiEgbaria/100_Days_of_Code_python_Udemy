@@ -88,6 +88,4 @@ random.shuffle(password)
 
 for char in password:
     password1 += char
-
-
 print(password1)
