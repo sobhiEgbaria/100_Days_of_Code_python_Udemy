@@ -1,2 +1,5 @@
 def foo():
-    print("monkey D Luffy")
+    print(1+1)
+
+
+foo()
