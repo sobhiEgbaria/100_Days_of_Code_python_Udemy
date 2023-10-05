@@ -1,8 +1,10 @@
-# Take both people's names and check for the number of times the letters in the word TRUE occurs.
+"""
+Take both people's names and check for the number of times the letters in the word TRUE occurs.
 
-# Then check for the number of times the letters in the word LOVE occurs.
+ Then check for the number of times the letters in the word LOVE occurs.
 
-# Then combine these numbers to make a 2 digit number.
+ Then combine these numbers to make a 2 digit number.
+"""
 
 love_counter = 0
 true_counter = 0
