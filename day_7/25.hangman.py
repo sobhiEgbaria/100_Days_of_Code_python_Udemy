@@ -16,13 +16,14 @@ for i in range(len(chosen_word)):
 
 while remain_guess > 0 and lives > 0:
     print(spaces)
+    print(chosen_word)
     users_guess = input("enter your guess:\n")
     if users_guess not in chosen_word:
         print(logo.stages[lives])
         lives -= 1
-    for chr in range(len(chosen_word)):
-        if users_guess == chosen_word[chr]:
-            spaces[chr] = chosen_word[chr]
+    for i in range(len(chosen_word)):
+        if users_guess == chosen_word[i]:
+            spaces[i] = users_guess
             remain_guess -= 1
 
 if remain_guess > lives:
