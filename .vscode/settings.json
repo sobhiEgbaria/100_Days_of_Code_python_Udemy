@@ -1,3 +1,9 @@
 {
-  "cSpell.words": ["Egbaria", "Luffy", "mentos", "sobhi"]
+  "cSpell.words": ["Egbaria", "Luffy", "mentos", "sobhi"],
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "editor.formatOnSave": true,
+  "prettier.bracketSameLine": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }
